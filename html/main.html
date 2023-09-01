@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>JS Drum Kit</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="icon" href="https://fav.farm/🔥" />
+  </head>
+  <body>
+    <div class="header">
+      <h1>DRUM KIT</h1>
+    </div>
+
+    <div class="keys">
+      <div class="key-content">
+        <div class="key">
+          <div class="key-img">
+            <img data-key="65" width="120" src="../images/clap.jpeg" alt="" />
+          </div>
+
+          <kbd>A</kbd>
+          <span class="sound">clap</span>
+        </div>
+
+        <div class="key">
+          <div class="key-img">
+            <img data-key="83" width="120" src="../images/hihat.jpg" alt="" />
+          </div>
+
+          <kbd>S</kbd>
+          <span class="sound">hihat</span>
+        </div>
+
+        <div class="key">
+          <div class="key-img">
+            <img data-key="68" width="120" src="../images/kick.jpg" alt="" />
+          </div>
+
+          <kbd>D</kbd>
+          <span class="sound">kick</span>
+        </div>
+      </div>
+
+      <div class="key-content">
+        <div class="key">
+          <div class="key-img">
+            <img data-key="70" width="120" src="../images/openhat.jpg" alt="" />
+          </div>
+
+          <kbd>F</kbd>
+          <span class="sound">openhat</span>
+        </div>
+
+        <div class="key">
+          <div class="key-img">
+            <img data-key="71" width="120" src="../images/boom.jpg" alt="" />
+          </div>
+
+          <kbd>G</kbd>
+          <span class="sound">boom</span>
+        </div>
+
+        <div class="key">
+          <div class="key-img">
+            <img data-key="72" width="120" src="../images/ride.jpeg" alt="" />
+          </div>
+
+          <kbd>H</kbd>
+          <span class="sound">ride</span>
+        </div>
+      </div>
+
+      <div class="key-content">
+        <div class="key">
+          <div class="key-img">
+            <img data-key="74" width="120" src="../images/snare1.png" alt="" />
+          </div>
+
+          <kbd>J</kbd>
+          <span class="sound">snare</span>
+        </div>
+
+        <div class="key">
+          <div class="key-img">
+            <img data-key="75" width="120" src="../images/tomtom.jpg" alt="" />
+          </div>
+
+          <kbd>K</kbd>
+          <span class="sound">tom</span>
+        </div>
+
+        <div class="key">
+          <div class="key-img">
+            <img data-key="76" width="120" src="../images/kick.jpg" alt="" />
+          </div>
+
+          <kbd>L</kbd>
+          <span class="sound">tink</span>
+        </div>
+      </div>
+    </div>
+
+    <audio data-key="65" src="../sounds/clap.wav"></audio>
+    <audio data-key="83" src="../sounds/hihat.wav"></audio>
+    <audio data-key="68" src="../sounds/kick.wav"></audio>
+    <audio data-key="70" src="../sounds/openhat.wav"></audio>
+    <audio data-key="71" src="../sounds/boom.wav"></audio>
+    <audio data-key="72" src="../sounds/ride.wav"></audio>
+    <audio data-key="74" src="../sounds/snare.wav"></audio>
+    <audio data-key="75" src="../sounds/tom.wav"></audio>
+    <audio data-key="76" src="../sounds/tink.wav"></audio>
+
+    <audio class="intro" src="../sounds/Voicy_Badum Tss.mp3"></audio>
+
+    <script src="../js/app.js"></script>
+  </body>
+</html>
